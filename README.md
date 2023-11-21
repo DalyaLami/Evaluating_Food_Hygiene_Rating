@@ -57,6 +57,8 @@ Use NoSQL_setup_starter.ipynb for this section of the challenge.
 The magazine editors have some requested modifications for the database before you can perform any queries or analysis for them. Make the following changes to the establishments collection:
 
 1) An exciting new halal restaurant just opened in Greenwich, but hasn't been rated yet. The magazine has asked you to include it in your analysis. Add the following information to the database:
+
+   
 {
     "BusinessName":"Penang Flavours",
     "BusinessType":"Restaurant/Cafe/Canteen",
@@ -86,13 +88,15 @@ The magazine editors have some requested modifications for the database before y
     "NewRatingPending":True
 }
 
-2) Find the BusinessTypeID for "Restaurant/Cafe/Canteen" and return only the BusinessTypeID and BusinessType fields.
 
-3) Update the new restaurant with the BusinessTypeID you found.
 
-4) The magazine is not interested in any establishments in Dover, so check how many documents contain the Dover Local Authority. Then, remove any establishments within the Dover Local Authority from the database, and check the number of documents to ensure they were deleted.
+3) Find the BusinessTypeID for "Restaurant/Cafe/Canteen" and return only the BusinessTypeID and BusinessType fields.
 
-5) Some of the number values are stored as strings, when they should be stored as numbers.
+4) Update the new restaurant with the BusinessTypeID you found.
+
+5) The magazine is not interested in any establishments in Dover, so check how many documents contain the Dover Local Authority. Then, remove any establishments within the Dover Local Authority from the database, and check the number of documents to ensure they were deleted.
+
+6) Some of the number values are stored as strings, when they should be stored as numbers.
 
         1) Use update_many to convert latitude and longitude to decimal numbers.
         2)Use update_many to convert RatingValue to integer numbers.
