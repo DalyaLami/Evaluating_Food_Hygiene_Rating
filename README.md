@@ -1,5 +1,6 @@
 # Evaluating_Food_Hygiene_Rating
 
+Evaluating some of the food hygiene ratings data in order to help the UK Food Standards Agency journalists and food critics decide where to focus future articles.
 
 - [Getting Started](#getting-started)
 - [Prerequisites](#Prerequisites)
@@ -9,7 +10,7 @@
 
 ## Getting Started
 
-The UK Food Standards Agency evaluates various establishments across the United Kingdom, and gives them a food hygiene rating. You've been contracted by the editors of a food magazine, Eat Safe, Love, to evaluate some of the ratings data in order to help their journalists and food critics decide where to focus future articles.
+The UK Food Standards Agency evaluates various establishments across the United Kingdom, and gives them a food hygiene rating. You've been contracted by the editors of a food magazine, Eat Safe, Love, to help them evaluate some of the ratings data.
 
 
 ### Prerequisites
