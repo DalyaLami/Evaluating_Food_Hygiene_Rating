@@ -1,4 +1,4 @@
-# nosql-challenge
+# Evaluating_Food_Hygiene_Rating
 
 
 - [Getting Started](#getting-started)
@@ -39,11 +39,11 @@ Use NoSQL_setup_starter.ipynb for this section of the challenge.
 
 4) Confirm that you created the database and loaded the data properly:
    
-  - List the databases you have in MongoDB. Confirm that uk_food is listed.
+    - List the databases you have in MongoDB. Confirm that uk_food is listed.
    
-  - List the collection(s) in the database to ensure that establishments is there.
+    - List the collection(s) in the database to ensure that establishments is there.
    
-  - Find and display one document in the establishments collection using find_one and display with pprint.
+    - Find and display one document in the establishments collection using find_one and display with pprint.
    
 5) Assign the establishments collection to a variable to prepare the collection for use.
 
@@ -61,9 +61,9 @@ The magazine editors have some requested modifications for the database before y
 
 6) Some of the number values are stored as strings, when they should be stored as numbers.
    
-   1. Use update_many to convert latitude and longitude to decimal numbers.
+     1. Use update_many to convert latitude and longitude to decimal numbers.
    
-   2. Use update_many to convert RatingValue to integer numbers.
+     2. Use update_many to convert RatingValue to integer numbers.
 
 #### Part 3: Exploratory Analysis
 - Eat Safe, Love has specific questions they want you to answer, which will help them find the locations they wish to visit and avoid.
