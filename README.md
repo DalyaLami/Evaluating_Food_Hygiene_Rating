@@ -39,11 +39,11 @@ Use NoSQL_setup_starter.ipynb for this section of the challenge.
 
 4) Confirm that you created the database and loaded the data properly:
    
-       - List the databases you have in MongoDB. Confirm that uk_food is listed.
+  - List the databases you have in MongoDB. Confirm that uk_food is listed.
    
-       - List the collection(s) in the database to ensure that establishments is there.
+  - List the collection(s) in the database to ensure that establishments is there.
    
-       - Find and display one document in the establishments collection using find_one and display with pprint.
+  - Find and display one document in the establishments collection using find_one and display with pprint.
    
 5) Assign the establishments collection to a variable to prepare the collection for use.
 
@@ -61,9 +61,9 @@ The magazine editors have some requested modifications for the database before y
 
 6) Some of the number values are stored as strings, when they should be stored as numbers.
    
-       1. Use update_many to convert latitude and longitude to decimal numbers.
+   1. Use update_many to convert latitude and longitude to decimal numbers.
    
-       2. Use update_many to convert RatingValue to integer numbers.
+   2. Use update_many to convert RatingValue to integer numbers.
 
 #### Part 3: Exploratory Analysis
 - Eat Safe, Love has specific questions they want you to answer, which will help them find the locations they wish to visit and avoid.
@@ -74,7 +74,7 @@ The magazine editors have some requested modifications for the database before y
 
     - RatingValue refers to the overall rating decided by the Food Authority and ranges from 1-5. The higher the value, the better the rating.
 
-            - Note: This field also includes non-numeric values such as 'Pass', where 'Pass' means that the establishment passed their inspection but isn't given a number rating. 
+      - Note: This field also includes non-numeric values such as 'Pass', where 'Pass' means that the establishment passed their inspection but isn't given a number rating. 
                     We will coerce non-numeric values to nulls during the database setup before converting ratings to integers.
         
     - The scores for Hygiene, Structural, and ConfidenceInManagement work in reverse. This means, the higher the value, the worse the establishment is in these areas.
